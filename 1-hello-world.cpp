@@ -6,10 +6,7 @@ using namespace std;
 
 int main()
 {
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+  string result =  "This is my second commit, I have changed few things in this commit.";
+  cout << result;
+  return 0;
 }
